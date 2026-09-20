@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Свадебное приглашение Тимура и Анны — 7 июля 2032 года."
+    />
+    <meta name="theme-color" content="#17372d" />
+    <title>Тимур & Анна — 07.07.2032</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&family=Marck+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="is-locked">
+    <div class="opening" id="opening" aria-label="Открыть приглашение">
+      <div class="opening__veil"></div>
+      <div class="opening__card" role="dialog" aria-modal="true" aria-labelledby="opening-title">
+        <div class="opening__monogram" aria-hidden="true">Т · А</div>
+        <p class="eyebrow">07 · 07 · 2032</p>
+        <h1 id="opening-title">Вас хотят кое-куда<br /><em>пригласить</em></h1>
+        <button class="open-button" id="openInvitation" type="button">
+          <span>Открыть приглашение</span>
+          <span class="open-button__arrow" aria-hidden="true">→</span>
+        </button>
+      </div>
+      <p class="opening__hint">Нажмите, чтобы открыть</p>
+    </div>
+
+    <main id="content">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero__image"
+          src="timur-anya-07.jpg"
+          alt="Тимур и Анна на фоне гор"
+        />
+        <div class="hero__shade"></div>
+        <div class="hero__date">7 июля 2032 · 15:00</div>
+        <div class="hero__content reveal">
+          <p class="eyebrow eyebrow--light">Save the date</p>
+          <h2 id="hero-title"><span>Тимур</span><b>&</b><span>Анна</span></h2>
+          <p class="hero__subtitle">Мы женимся</p>
+        </div>
+        <a class="scroll-cue" href="#welcome" aria-label="Листать к приглашению">
+          <span></span>
+        </a>
+      </section>
+
+      <section class="welcome section section--paper" id="welcome">
+        <div class="ornament reveal" aria-hidden="true">T & A</div>
+        <div class="section__inner section__inner--narrow reveal">
+          <p class="eyebrow">To the moon and back</p>
+          <h2 class="display-title">Дорогие<br /><em>родные и близкие!</em></h2>
+          <p class="lead">
+            Совсем скоро состоится день нашей свадьбы. Мы будем счастливы,
+            если вы разделите с нами этот особенный момент и станете частью
+            нашей семейной истории.
+          </p>
+          <div class="signature">Тимур & Анна</div>
+        </div>
+      </section>
+
+      <section class="story section section--ink">
+        <div class="section__inner story__grid">
+          <div class="story__heading reveal">
+            <p class="eyebrow eyebrow--light">A little bit of us</p>
+            <h2 class="display-title display-title--light">Наша<br /><em>история</em></h2>
+          </div>
+          <div class="story__copy reveal">
+            <p>
+              В нашей истории много путешествий, вечерних прогулок, смешных
+              фотографий и моментов, понятных только нам двоим.
+            </p>
+            <p>
+              Теперь начинается новая глава — и первую её страницу мы хотим
+              открыть рядом с самыми дорогими людьми.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section section--paper" aria-labelledby="gallery-title">
+        <div class="section__inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Our memories</p>
+            <h2 class="display-title" id="gallery-title">Это <em>мы</em></h2>
+          </div>
+          <div class="gallery__grid">
+            <figure class="photo photo--wide reveal">
+              <img src="timur-anya-02.jpg" alt="Тимур и Анна делают фотографию в зеркале" loading="lazy" />
+            </figure>
+            <figure class="photo photo--portrait reveal">
+              <img src="timur-anya-05.jpg" alt="Чёрно-белая фотография Тимура и Анны" loading="lazy" />
+            </figure>
+            <figure class="photo photo--portrait photo--offset reveal">
+              <img src="timur-anya-01.jpg" alt="Тимур и Анна на вечерней прогулке" loading="lazy" />
+            </figure>
+            <div class="gallery__quote reveal">
+              <span>07</span>
+              <p>Самое красивое<br />приключение — вместе</p>
+              <span>32</span>
+            </div>
+            <figure class="photo photo--portrait reveal">
+              <img src="timur-anya-03.jpg" alt="Анна рядом с винтажным телефоном" loading="lazy" />
+            </figure>
+            <figure class="photo photo--portrait reveal">
+              <img src="timur-anya-04.jpg" alt="Тимур рядом с винтажным телефоном" loading="lazy" />
+            </figure>
+            <figure class="photo photo--wide photo--mountains reveal">
+              <img src="timur-anya-08.jpg" alt="Тимур и Анна смотрят на горы" loading="lazy" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="date-section section section--mist" aria-labelledby="date-title">
+        <div class="section__inner date-section__grid">
+          <div class="date-section__intro reveal">
+            <p class="eyebrow">Save our date</p>
+            <h2 class="display-title" id="date-title">Мы ждём<br /><em>вас!</em></h2>
+            <p class="date-section__big">07 · 07 · 32</p>
+          </div>
+          <div class="calendar reveal" aria-label="Календарь на июль 2032 года">
+            <div class="calendar__top">
+              <span>Июль</span>
+              <span>2032</span>
+            </div>
+            <div class="calendar__weekdays" aria-hidden="true">
+              <span>Пн</span><span>Вт</span><span>Ср</span><span>Чт</span><span>Пт</span><span>Сб</span><span>Вс</span>
+            </div>
+            <div class="calendar__days" id="calendarDays"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="details section section--paper" aria-labelledby="details-title">
+        <div class="section__inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">The wedding day</p>
+            <h2 class="display-title" id="details-title">Детали <em>торжества</em></h2>
+          </div>
+          <div class="details__card reveal">
+            <div class="details__number">07</div>
+            <div>
+              <p class="details__label">Дата</p>
+              <h3>Среда, 7 июля 2032</h3>
+            </div>
+            <div class="details__divider"></div>
+            <div>
+              <p class="details__label">Место и время</p>
+              <h3>Усадьба Голицыных · 15:00</h3>
+              <p>Ростов-на-Дону, ул. Левобережная, 3А</p>
+              <a class="map-link" href="https://yandex.ru/maps/?text=%D0%A3%D1%81%D0%B0%D0%B4%D1%8C%D0%B1%D0%B0%20%D0%93%D0%BE%D0%BB%D0%B8%D1%86%D1%8B%D0%BD%D1%8B%D1%85%2C%20%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83%2C%20%D1%83%D0%BB.%20%D0%9B%D0%B5%D0%B2%D0%BE%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F%2C%203%D0%90" target="_blank" rel="noreferrer">Как добраться <span>→</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline section section--ink" aria-labelledby="timeline-title">
+        <div class="section__inner">
+          <div class="section-heading section-heading--light reveal">
+            <p class="eyebrow eyebrow--light">The plan</p>
+            <h2 class="display-title display-title--light" id="timeline-title">Программа <em>дня</em></h2>
+          </div>
+          <div class="timeline__list">
+            <article class="timeline__item reveal">
+              <time>15:00</time>
+              <span class="timeline__line"></span>
+              <div><small>We meet</small><h3>Сбор гостей</h3></div>
+            </article>
+            <article class="timeline__item reveal">
+              <time>15:30</time>
+              <span class="timeline__line"></span>
+              <div><small>We do</small><h3>Свадебная церемония</h3></div>
+            </article>
+            <article class="timeline__item reveal">
+              <time>16:30</time>
+              <span class="timeline__line"></span>
+              <div><small>We celebrate</small><h3>Праздничный вечер</h3></div>
+            </article>
+            <article class="timeline__item reveal">
+              <time>23:00</time>
+              <span class="timeline__line"></span>
+              <div><small>The end</small><h3>Завершение вечера</h3></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="dress section section--paper" aria-labelledby="dress-title">
+        <div class="section__inner dress__grid">
+          <div class="dress__copy reveal">
+            <p class="eyebrow">Attire</p>
+            <h2 class="display-title" id="dress-title">Dress <em>code</em></h2>
+            <p class="lead">
+              Самое главное для нас — ваше присутствие. Будем рады, если вы
+              поддержите атмосферу вечера и выберете наряд в цветах нашей свадьбы.
+            </p>
+          </div>
+          <div class="palette reveal" aria-label="Предварительная цветовая палитра">
+            <span style="--color: #141414" data-name="чёрный"></span>
+            <span style="--color: #ece6db" data-name="молочный"></span>
+            <span style="--color: #17372d" data-name="зелёный"></span>
+            <span style="--color: #5b2028" data-name="бордо"></span>
+            <span style="--color: #795b45" data-name="коричневый"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="countdown section" aria-labelledby="countdown-title">
+        <img src="timur-anya-01.jpg" alt="" class="countdown__image" loading="lazy" />
+        <div class="countdown__shade"></div>
+        <div class="section__inner countdown__content reveal">
+          <p class="eyebrow eyebrow--light">Until our day</p>
+          <h2 class="display-title display-title--light" id="countdown-title">До нашей свадьбы</h2>
+          <div class="timer" id="timer" aria-live="polite">
+            <div><strong id="days">0000</strong><span>дней</span></div>
+            <div><strong id="hours">00</strong><span>часов</span></div>
+            <div><strong id="minutes">00</strong><span>минут</span></div>
+            <div><strong id="seconds">00</strong><span>секунд</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wishes section section--mist">
+        <div class="section__inner section__inner--narrow reveal">
+          <p class="eyebrow">A little note</p>
+          <h2 class="display-title">Наши <em>пожелания</em></h2>
+          <p class="lead">
+            Ваши улыбки, объятия и хорошее настроение — лучший подарок для нас.
+            Мы не хотим утруждать вас выбором подарка, поэтому будем рады вашему
+            вкладу в бюджет нашей молодой семьи.
+          </p>
+        </div>
+      </section>
+
+      <section class="rsvp section section--paper" aria-labelledby="rsvp-title">
+        <div class="section__inner rsvp__grid">
+          <div class="rsvp__intro reveal">
+            <p class="eyebrow">Please reply</p>
+            <h2 class="display-title" id="rsvp-title">Будем рады<br /><em>видеть вас!</em></h2>
+            <p>Пожалуйста, подтвердите присутствие до <strong>7 января 2032 года</strong>.</p>
+            <div class="contact-card">
+              <span>По всем вопросам</span>
+              <strong>Тимур</strong>
+              <a href="tel:+79604588898">+7 960 458-88-98</a>
+            </div>
+          </div>
+          <form class="rsvp__form reveal" id="rsvpForm">
+            <label class="field">
+              <span>Имя и фамилия</span>
+              <input type="text" name="name" autocomplete="name" required placeholder="Ваше имя" />
+            </label>
+            <fieldset>
+              <legend>Сможете быть с нами?</legend>
+              <label class="choice"><input type="radio" name="attendance" value="yes" required /><span>С удовольствием приду!</span></label>
+              <label class="choice"><input type="radio" name="attendance" value="no" required /><span>К сожалению, не смогу</span></label>
+            </fieldset>
+            <fieldset>
+              <legend>Как вы планируете добираться?</legend>
+              <label class="choice"><input type="radio" name="transport" value="self" required /><span>Самостоятельно</span></label>
+              <label class="choice"><input type="radio" name="transport" value="transfer" required /><span>Понадобится трансфер</span></label>
+            </fieldset>
+            <fieldset>
+              <legend>Будете ли вы пить алкоголь?</legend>
+              <label class="choice"><input type="radio" name="alcohol" value="yes" required /><span>Да</span></label>
+              <label class="choice"><input type="radio" name="alcohol" value="no" required /><span>Нет</span></label>
+            </fieldset>
+            <fieldset>
+              <legend>Что предпочитаете?</legend>
+              <label class="choice"><input type="checkbox" name="drinks" value="sparkling" /><span>Игристое</span></label>
+              <label class="choice"><input type="checkbox" name="drinks" value="white-wine" /><span>Белое вино</span></label>
+              <label class="choice"><input type="checkbox" name="drinks" value="red-wine" /><span>Красное вино</span></label>
+              <label class="choice"><input type="checkbox" name="drinks" value="strong" /><span>Крепкие напитки</span></label>
+              <label class="choice"><input type="checkbox" name="drinks" value="soft" /><span>Безалкогольные напитки</span></label>
+            </fieldset>
+            <button class="submit-button" type="submit">Отправить ответ <span>→</span></button>
+            <p class="form-hint">После нажатия откроется WhatsApp с готовым сообщением для Тимура.</p>
+            <p class="form-status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <img src="timur-anya-05.jpg" alt="Тимур и Анна" loading="lazy" />
+        <div class="footer__shade"></div>
+        <div class="footer__content reveal">
+          <p class="eyebrow eyebrow--light">With love</p>
+          <h2>До скорой встречи!</h2>
+          <div class="signature signature--light">Тимур & Анна</div>
+          <p class="footer__date">07 · 07 · 2032</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
